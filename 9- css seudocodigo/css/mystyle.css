@@ -1,0 +1,37 @@
+.par{
+    background-color: burlywood;
+    padding: 15px;   
+    margin: 15px;
+    display: flex;
+    flex-wrap:wrap ; /*ajusta a la pantalla los elementos*/
+    gap: 10px; /*Espacios entre imagnes*/
+    justify-content: center;
+}
+.par li{
+    padding: 10px 0px;
+
+}
+.button-hover{
+    background-color: darkgoldenrod;
+    width: 80px;
+    height: 40px; 
+    font-size: 12px;
+}
+.button-hover::before{    
+    content: "Pasa por encima";
+}
+
+    
+.button-hover:hover{
+    background-color: rgb(11, 59, 11);
+    color: aliceblue;  
+    font-size: 0px;
+    
+}
+.button-hover:hover::after{
+ font-size: 12px;
+ content: "Hecho";
+    
+}
+
+

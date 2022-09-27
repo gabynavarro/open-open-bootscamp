@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/mystyle.css">
+
+    <title>posicionamiento</title>
+</head>
+<body>
+    <div class="div-master">  
+        <div class="div-5">
+            <h3>Soy un div Stcky</h3>
+            <p> Me posiciono en parte de la pagina</p>
+            <p> me fijo cuando scrolleo</p>
+        </div> 
+        <div class="div-1">
+            <h3>Soy un div static</h3>
+            <p> no se deberian editar uso por defecto</p>
+            <p> no se ven afectados a los posicionamientos</p>
+        </div>
+     
+       <div class="div-2">
+            <h3>Soy un div relative</h3>
+            <p> Relative, posisiona como si fuese estatico en relacion la position, se le puede asignar ej, padding  </p>
+        </div> 
+       
+        <div class="div-padre contenedor">
+            <div class="div-4">
+                <h3>Soy un div Absolute</h3>
+                <p> Se posisiona dependiendo del elemento padre,
+                </p> <p> y debo ir dentro de un dev con posicionamiento relativo  </p>
+                
+                <p> Elimina espacio sobrante de la caja</p>
+        
+            </div> 
+        </div>
+        <div class="div-3">
+            <h3>Soy un div fixed</h3>
+            <p> Fixed: la posision se calcula del modelo absoluto,
+            </p> <p> y fijado dependiendo otro objeto -queda fijo  </p>
+            <p> segun donde se colequen en la pantalla </p>
+            <p> Elimina espacio sobrante de la caja</p>
+    
+        </div> 
+
+    </div>
+
+</body>
+</html>

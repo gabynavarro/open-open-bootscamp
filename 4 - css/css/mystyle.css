@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(243, 155, 47);
+}
+#elemento-1, #elemento-6{
+color: #ff0800;
+
+}
+#elemento-1{
+    font-size: 2rem;
+}

@@ -1,0 +1,118 @@
+//variables
+$color-main:#472d1b;
+$color-button:#f58110;
+$color-title:#f5ae21;
+$color-div: #9ec58c;
+$color-footer:$color-main;
+//mixin
+
+.html
+{
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    ul{
+        margin-bottom: 0;
+    }
+    li {
+        list-style: none;
+        font-size:0.9rem;
+        display: inline;
+        a{
+            text-decoration: none;
+            color: $color-button;
+        &:hover{
+            text-decoration: underline;
+            
+            }
+        }       
+    }        
+}
+.btn-contact{
+    background-color: $color-button;
+    border: none;
+    color: $color-main;
+    border-radius: 7px;
+    border-color: $color-button;
+    padding: .5rem 5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    &:hover{
+        background-color: #472d1b;
+        color: #f58110;
+        border-color: #472d1b;
+    }
+}
+.sec-home{           
+        background: url(../assets/img/bg-home2.avif) no-repeat center center;
+        -webkit-background-size: cover cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;     
+        height: 100vh;     
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        .title-name{
+            color:white;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            text-shadow:0.1rem 0.1rem 0.1rem black ;
+        }
+        
+    }
+
+.mydate-description{
+
+        display: flex;
+        flex-direction: row;
+        background-color: #dad0c6;
+        justify-content: center;
+
+    .mydescription{
+        display: flex;
+        flex-direction: column;
+       
+        width:30%;
+        font-size: 1.5rem;
+            .myname{            
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: 400;
+                font-size: 2rem;            
+                }
+            .myprofesion{
+                font-family: 'Times New Roman', Times, serif;            
+            }
+            .my-decaration{
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: .9rem;
+            }
+}
+
+    .myyimg{
+        width: 30%; 
+        
+        img{
+            width: 100%;
+            height: auto;
+            border-radius:50%;
+        }
+    }
+    .my-skill{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .kills{
+            width: 90%;
+            label.progress-label{
+                width: 90%;
+            }
+        }
+      
+        
+
+    }
+    }

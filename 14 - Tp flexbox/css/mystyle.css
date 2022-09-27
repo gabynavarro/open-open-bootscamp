@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(66, 110, 96);
+
+}
+.container{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    
+    
+}
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+.lateral{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+}
+.lateral .element{
+    padding:10px;
+    background-color: rgb(204, 204, 154);
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+      background-color: rgb(29, 67, 80);      
+    }
+    .container{
+        flex-direction: column-reverse;
+    }
+    .lateral{
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: stretch;
+    }
+    
+   
+  
+  }

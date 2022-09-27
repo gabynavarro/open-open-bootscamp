@@ -1,0 +1,54 @@
+html{
+    padding: 20px;
+    margin: 0;
+}
+.ecenario-1, .ecenario-2,
+.ecenario-3, .ecenario-4{
+    margin: 10px 0px;
+    border: 1px solid rgb(56, 54, 54);
+    padding: 10px;
+}
+.ecenario-1{
+    width: 100%;
+}
+.px{
+background-color: blue;
+color: white;
+padding: 10px 10px;
+width: 200px;
+}
+.procentaje{
+background-color: rgb(11, 94, 31);
+color: white;
+padding: 10px 10px;
+width: 50%;
+}
+.view{
+background-color: rgb(73, 85, 8);
+color: white;
+padding: 10px 10px;
+width: 50vw;
+}
+.ecenario-2{
+    width: 50%;
+}
+.rem, .em{
+    padding: 10px 10px;
+}
+.ecenario-3{
+    font-size: 32px;
+}
+
+.ecenario-2{
+    font-size: 16px;
+}
+
+.em{
+    font-size: 2em;
+}
+.em span{
+    font-size: .5em;
+}
+.rem{
+    font-size: 2rem;
+}

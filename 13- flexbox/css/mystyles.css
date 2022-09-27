@@ -1,0 +1,18 @@
+h1{
+    color: blue;
+}
+
+.contenedor{
+    display: flex;
+    background-color: rgb(163, 163, 206);
+    gap: 0.5rem;
+    min-height: 3rem;
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+    
+}
+.item{
+    color: yellow;
+    padding: 0.5rem;
+    background-color: blueviolet;
+}

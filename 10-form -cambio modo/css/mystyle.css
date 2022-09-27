@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+*{
+    font-family: 'Ubuntu',sans-serif; 
+}
+
+.container{
+    margin: auto;
+    display: flex; /*renderezo de forma continuada*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 450px;
+    background-origin: auto;
+}
+body.dark {
+    background: var(--dark-2);
+    color:white;
+}
+.google-btn{
+    border: none;
+    background-color: rgb(26,115,232);    
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;    
+}
+.google-btn picture{
+    background-color: white;
+    width: 35px;
+    height: 35px;    
+    padding: 1px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.google-btn picture img{
+    width: 75%;
+}
+.google-btn span{
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+.google-btn:hover{
+    opacity: .75;
+}
+.buttons{   
+    display: flex;
+    align-self: flex-start;
+    gap: 30px;
+}
+.twitter{
+    width: 35px;    
+    border: none;
+    cursor: pointer;
+}
+.twitter picture img{
+    width: 75%;
+}
+.twitter picture :hover{
+    opacity: 0.75;
+}
+.separator{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.separator hr{
+    flex-grow: 1; /*Ocupe todo el espacio*/
+    border: none;
+    border-top: 1px solid #ccc;
+}
+.separator span{
+    color: #bbb;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+}
+.dark input{
+    background-color: #212121;
+}
+.dark .section-input label input{
+    background-color: #212121;
+}
+.section-input{
+    display: flex;      
+    width: 100%;
+    gap: 10px;
+}
+label{  
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.section-input label input{
+    width: 80%;
+    background-color: #dadadb;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+}
+label input{
+    width: 90%;
+    background-color: #dadadb;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    transition: background-color 0.5s, border 0.2s, box-shadow 0.3s;
+}
+label span{
+    font-weight: 700;
+}
+.dark label input:hover{
+    background-color: #454045;
+}
+label input:hover{
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 5px #eb50ff4f;
+}
+.dark label input:focus{
+    background-color: #454045;
+}
+label input:focus{
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 5px #eb50ff4f;
+}
+.checkbox-label,.checkbox-oscuro{
+    display: flex;
+    flex-direction: row;
+    
+}
+.checkbox-label input, .checkbox-oscuro input{
+    width: 20px;
+}
+.checkbox-label span, .checkbox-oscuro span{
+    font-weight: 400;
+}
+.submit-btn{
+    background-color:#EA4c89 ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px;
+    cursor:pointer;
+}
+.submit-btn:hover{
+    opacity: .75;
+}
+:root {
+    --light-0: #f8f9fa;
+    --light-1: #e9ecef;
+    --light-2: #dee2e6;
+    --dark-0: #495057;
+    --dark-1: #212121;
+    --dark-2: #161717;
+}
+#toggle-button:checked + label {
+  background: var(--dark-0);
+}
