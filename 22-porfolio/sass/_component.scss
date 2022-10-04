@@ -85,19 +85,28 @@ $color-footer:$color-main;
             .myprofesion{
                 font-family: 'Times New Roman', Times, serif;            
             }
-            .my-decaration{
+            .my-declaration{
                 font-family:Arial, Helvetica, sans-serif;
                 font-size: .9rem;
             }
 }
 
     .myyimg{
-        width: 30%; 
-        
-        img{
-            width: 100%;
+        width: 30%;        
+        padding: .7rem .8rem;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+
+        img{            
+            width: 90%;
             height: auto;
             border-radius:50%;
+        }
+        .my-cv{
+            margin-top: 7%;       
+            width: 90%;
         }
     }
     .my-skill{
@@ -105,14 +114,45 @@ $color-footer:$color-main;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         .kills{
-            width: 90%;
+            align-items: center;
+            width: 90%;          
+
             label.progress-label{
-                width: 90%;
+                padding: 5% 0%;
+                width: 100%;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 1rem;           
             }
         }
-      
-        
+    }
+    }
+.section-my-jobs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    .my-jobs{
+        text-align: center;
+        width: 100%;
+        padding: 2% 1%;
+    }
+    .my-jobs-card{    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-grow: 1;    
 
     }
+    .flex-container{
+      justify-content:center;
+      
     }
+ 
+    .card{
+        margin: 2%;
+        width:  21rem;          
+    }
+}
