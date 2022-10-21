@@ -95,7 +95,7 @@ $color-footer:$color-main;
         width: 30%; 
         
         img{
-            width: 100%;
+            width: 70%;
             height: auto;
             border-radius:50%;
         }
@@ -106,11 +106,10 @@ $color-footer:$color-main;
         flex-direction: column;
         align-items: center;
         .kills{
-            width: 90%;
-            label.progress-label{
-                width: 90%;
-            }
+            width: 90%;    
+              
         }
+        
       
         
 
